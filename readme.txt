@@ -1,4 +1,4 @@
-#LEARNING RUBY DAY
-Learnt some basic syntax methods 
+#LEARNING RUBY DAY1 Progress  
+Learnt some basic syntax and methods 
 
 
