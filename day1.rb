@@ -20,4 +20,5 @@ state=gets.chomp
 state=state.upcase!
 
 puts "DAY 2"
+puts "new changes"
 puts "#{first_name} is from #{city} which is in #{state}"
