@@ -19,6 +19,28 @@ print "enter your state"
 state=gets.chomp
 state=state.upcase!
 
-puts "DAY 2"
-puts "new changes"
 puts "#{first_name} is from #{city} which is in #{state}"
+
+
+=begin
+
+::30th April 2020::
+Day1: exploring general Ruby syntax i.e. conditional statments
+
+=end
+
+puts "#### starting day 2 ####"
+
+puts"Have you completed the day1 tasks?"
+answer = gets.chomp.upcase
+
+if answer == "YES" 
+puts "Great, you can continue..."
+
+elsif answer == "NO"
+puts "Kindly complete day 1 to proceed"
+
+else 
+puts "ERROR"
+
+end
