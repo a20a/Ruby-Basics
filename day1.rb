@@ -6,18 +6,20 @@ Day1: exploring general Ruby syntax and methodes
 =end
 
 print "WHAT IS YOUR NAME?"
-first_name=gets.chomp
-first_name.capitalize!
-print "ENTER YOUR LAST NAME"
-last_name=gets.chomp
+	first_name=gets.chomp
+	first_name.capitalize!
 
-last_name.capitalize!
+print "ENTER YOUR LAST NAME"
+	last_name=gets.chomp
+	last_name.capitalize!
+
 print "enter your city name"
-city=gets.chomp
-city.capitalize!
+	city=gets.chomp
+	city.capitalize!
+
 print "enter your state"
-state=gets.chomp
-state=state.upcase!
+	state=gets.chomp
+	state=state.upcase!
 
 puts "#{first_name} is from #{city} which is in #{state}"
 
@@ -32,15 +34,20 @@ Day1: exploring general Ruby syntax i.e. conditional statments
 puts "#### starting day 2 ####"
 
 puts"Have you completed the day1 tasks?"
-answer = gets.chomp.upcase
+	answer = gets.chomp.upcase
 
 if answer == "YES" 
-puts "Great, you can continue..."
+	puts "Great, you can continue..."
 
 elsif answer == "NO"
-puts "Kindly complete day 1 to proceed"
+	puts "Kindly complete day 1 to proceed"
 
 else 
-puts "ERROR"
+	puts "ERROR"
 
 end
+
+
+puts" eat something " unless Hungry
+
+ 
