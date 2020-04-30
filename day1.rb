@@ -48,6 +48,9 @@ else
 end
 
 
-puts" eat something " unless Hungry
+puts "eat something" unless Hungry
+puts "don't sleep" unless Working
+
+
 
  
