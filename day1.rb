@@ -27,7 +27,7 @@ puts "#{first_name} is from #{city} which is in #{state}"
 =begin
 
 ::30th April 2020::
-Day1: exploring general Ruby syntax i.e. conditional statments
+Day2: exploring general Ruby syntax i.e. conditional statments
 
 =end
 
@@ -50,6 +50,8 @@ end
 
 puts "eat something" unless Hungry
 puts "don't sleep" unless Working
+
+
 
 
 
