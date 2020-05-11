@@ -9,9 +9,9 @@ print "WHAT IS YOUR NAME?"
 	first_name=gets.chomp
 	first_name.capitalize!
 
-print "ENTER YOUR LAST NAME"
+print "ENTER YOUR LAST"
 	last_name=gets.chomp
-	last_name.capitalize!
+	
 
 print "enter your city name"
 	city=gets.chomp
