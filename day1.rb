@@ -9,7 +9,7 @@ print "WHAT IS YOUR NAME?"
 	first_name=gets.chomp
 	first_name.capitalize!
 
-print "ENTER YOUR LAST"
+puts "ENTER YOUR LAST PLEASE"
 	last_name=gets.chomp
 	
 
@@ -17,7 +17,7 @@ print "enter your city name"
 	city=gets.chomp
 	city.capitalize!
 
-print "enter your state"
+print "enter your province"
 	state=gets.chomp
 	state=state.upcase!
 
